@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -51,6 +51,7 @@
         background: #ffffff;
         position: relative;
         background: radial-gradient(circle, #ffffff 0%, #f0f2f5 100%);
+        overflow-x: hidden;
       }
 
       /* --- ANIMACIÓN DE FONDO PREMIUM (DEEP OCEAN) --- */
@@ -260,7 +261,9 @@
         cursor: pointer;
         box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
         transition: all 0.3s ease;
-        animation: fadeInUp 1.6s ease-out, pulse 3s infinite;
+        animation:
+          fadeInUp 1.6s ease-out,
+          pulse 3s infinite;
         text-decoration: none;
         display: inline-block;
         text-transform: uppercase;
